@@ -1,8 +1,8 @@
-int pinTrigger = 12;
-int pinEcho = 13;
-int pinLedBlue = 3;
-int pinLedYellow = 2;
-int pinLedRed = 4;
+const int pinTrigger = 12;
+const int pinEcho = 13;
+const int pinLedBlue = 3;
+const int pinLedYellow = 2;
+const int pinLedRed = 4;
 
 void setup(){
   Serial.begin(9600);
